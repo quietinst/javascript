@@ -144,3 +144,4 @@ vite.config.ts.timestamp-*
 
 # VSCode
 .vscode/
+.DS_Store

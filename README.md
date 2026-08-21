@@ -7,15 +7,21 @@ This repository contains my JavaScript practice and assignments while learning t
 ## Repository Structure
 
 ```text
-javascript-learning/
+javascript/
 │
-├── module-01/
-│   ├── task-01.js
-│   ├── task-02.js
-│   └── task-03.js
+├── module-01-basics/
+│   ├── task-01-droid-order/
+│   │   ├── README.md
+│   │   └── index.js
+│   ├── task-02-shipping/
+│   │   ├── README.md
+│   │   └── index.js
+│   ├── task-03-element-width/
+│   │   ├── README.md
+│   │   └── index.js
+│   └── README.md
 │
-├── module-02/
-│
+├── .gitignore
 └── README.md
 ```
 
@@ -28,9 +34,9 @@ Each module contains independent tasks and exercises completed during the learni
 | Module | Topic                              | Status |
 | ------ | ---------------------------------- | :----: |
 | 01     | Variables, Data Types, Functions   |   ✅   |
-| 02     | Conditionals & Loops               |   ⏳   |
-| 03     | Arrays & Functions                 |   ⏳   |
-| 04     | Objects                            |   ⏳   |
+| 02     | Conditionals & Loops               |   ✅   |
+| 03     | Arrays & Functions                 |   ✅   |
+| 04     | Objects                            |   ✅   |
 | 05     | Array Methods                      |   ⏳   |
 | 06     | Classes & OOP                      |   ⏳   |
 | 07     | DOM & Events                       |   ⏳   |

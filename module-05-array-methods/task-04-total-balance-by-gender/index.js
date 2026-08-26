@@ -1,4 +1,11 @@
 // Write your getTotalBalanceByGender arrow function above this line
+const getTotalBalanceByGender = (users, gender) =>
+  users.reduce((total, user) => {
+    if (user.gender === gender) {
+      total += user.balance;
+    }
+    return total;
+  }, 0);
 
 const clients = [
   {

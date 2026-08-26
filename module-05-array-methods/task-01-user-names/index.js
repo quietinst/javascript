@@ -1,4 +1,5 @@
 // Write your getUserNames arrow function above this line
+const getUserNames = users => users.map(user => user.name);
 
 // Test cases
 console.log(

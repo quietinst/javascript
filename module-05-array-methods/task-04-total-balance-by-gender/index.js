@@ -1,3 +1,4 @@
+'use strict';
 // Write your getTotalBalanceByGender arrow function above this line
 const getTotalBalanceByGender = (users, gender) =>
   users.reduce((total, user) => {

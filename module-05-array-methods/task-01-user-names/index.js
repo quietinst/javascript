@@ -1,6 +1,7 @@
 'use strict';
-// Write your getUserNames arrow function above this line
+
 const getUserNames = users => users.map(user => user.name);
+// Write your getUserNames arrow function above this line
 
 // Test cases
 console.log(

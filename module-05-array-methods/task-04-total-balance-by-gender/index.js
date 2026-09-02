@@ -1,5 +1,5 @@
 'use strict';
-// Write your getTotalBalanceByGender arrow function above this line
+
 const getTotalBalanceByGender = (users, gender) =>
   users.reduce((total, user) => {
     if (user.gender === gender) {
@@ -45,6 +45,7 @@ const clients = [
     balance: 2764,
   },
 ];
+// Write your getTotalBalanceByGender arrow function above this line
 
 // Test cases
 console.log(getTotalBalanceByGender(clients, 'male')); // 12053

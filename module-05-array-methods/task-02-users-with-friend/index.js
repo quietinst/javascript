@@ -1,5 +1,5 @@
 'use strict';
-// Write your getUsersWithFriend arrow function above this line
+
 const getUsersWithFriend = (users, friendName) =>
   users.filter(user => user.friends.includes(friendName));
 
@@ -33,6 +33,7 @@ const allUsers = [
     friends: ['Goldie Gentry', 'Briana Decker'],
   },
 ];
+// Write your getUsersWithFriend arrow function above this line
 
 // Test cases
 console.log(getUsersWithFriend(allUsers, 'Briana Decker'));

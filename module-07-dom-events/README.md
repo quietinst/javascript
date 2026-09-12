@@ -1,5 +1,7 @@
 # Module 07 — DOM and Events
 
+🔗 [Live demo](https://quietinst.github.io/javascript/module-07-dom-events/index.html)
+
 This module contains JavaScript exercises focused on DOM manipulation and browser events: traversing and reading elements, dynamically creating and inserting nodes, and handling `input`, `submit`, and `click` events.
 
 ## Tasks

@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   gap: 16px;
   width: 345px;
+  margin: 0 auto;
 }
 
 .widget button {

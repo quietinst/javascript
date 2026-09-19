@@ -40,8 +40,8 @@ Each module contains independent tasks and exercises completed during the learni
 | 05     | Array Methods                      |   ✅   |
 | 06     | Classes & OOP                      |   ✅   |
 | 07     | DOM & Events                       |   ✅   |
-| 08     | Events & Libraries                 |   ⏳   |
-| 09     | Modules & Vite                     |   ⏳   |
+| 08     | Events & Libraries                 |   ✅   |
+| 09     | Modules & Vite                     |   ✅   |
 | 10     | Asynchronous JavaScript & Promises |   ⏳   |
 | 11     | HTTP Requests & REST API           |   ⏳   |
 | 12     | Async/Await & Pagination           |   ⏳   |

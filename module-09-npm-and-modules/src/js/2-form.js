@@ -2,10 +2,21 @@ import '../css/styles.css';
 
 const STORAGE_KEY = 'feedback-form-state';
 const form = document.querySelector('.feedback-form');
-const formData = JSON.parse(localStorage.getItem(STORAGE_KEY)) ?? {
-  email: '',
-  message: '',
-};
+
+function getStoredFormData() {
+  try {
+    return (
+      JSON.parse(localStorage.getItem(STORAGE_KEY)) ?? {
+        email: '',
+        message: '',
+      }
+    );
+  } catch {
+    return { email: '', message: '' };
+  }
+}
+
+const formData = getStoredFormData();
 
 function renderFormData() {
   form.elements.email.value = formData.email;

@@ -80,8 +80,10 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 .output
+
+# Vite `dist` folders are intentionally committed in this repository.
+# GitHub Pages serves them as the live demos for individual modules.
 
 # Gatsby files
 .cache/

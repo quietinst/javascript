@@ -31,7 +31,7 @@ const gallery = document.querySelector('ul.gallery');
 const items = images
   .map(
     image =>
-      `<li><img src='${image.url}' alt='${image.alt}' width='360' ></li>`,
+      `<li class='item'><img class='image' src='${image.url}' alt='${image.alt}'></li>`,
   )
   .join('');
 gallery.innerHTML = items;

@@ -42,9 +42,9 @@ Each module contains independent tasks and exercises completed during the learni
 | 07     | DOM & Events                       |   ✅   |
 | 08     | Events & Libraries                 |   ✅   |
 | 09     | Modules & Vite                     |   ✅   |
-| 10     | Asynchronous JavaScript & Promises |   ⏳   |
-| 11     | HTTP Requests & REST API           |   ⏳   |
-| 12     | Async/Await & Pagination           |   ⏳   |
+| 10     | Asynchronous JavaScript & Promises |   ✅   |
+| 11     | HTTP Requests & REST API           |   ✅   |
+| 12     | Async/Await & Pagination           |   ✅   |
 
 ---
 

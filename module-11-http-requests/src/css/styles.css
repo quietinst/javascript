@@ -47,7 +47,6 @@ button {
 }
 
 .form input[type='text'] {
-  flex: 1;
   padding: 8px 16px;
   border: 1px solid #808080;
   border-radius: 4px;
@@ -147,4 +146,28 @@ button {
 
 .gallery-info-value {
   line-height: 2;
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    justify-content: center;
+  }
+
+  .form {
+    flex-direction: column;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .form label {
+    width: 100%;
+  }
+
+  .form input[type='text'] {
+    width: 100%;
+  }
+
+  .form button {
+    width: 100%;
+  }
 }
